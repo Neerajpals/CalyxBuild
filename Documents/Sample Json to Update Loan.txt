@@ -1,0 +1,72 @@
+{
+  "loanFields": [
+    {
+      "fieldName": "BorrowerFirstName",
+      "fieldValue": "Test",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerLastName",
+      "fieldValue": "Loan",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerStreet",
+      "fieldValue": "422 Kingstone Street",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerCity",
+      "fieldValue": "Alaska",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerState",
+      "fieldValue": "AL",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerZip",
+      "fieldValue": "21107",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerHomePhone",
+      "fieldValue": "9570428885",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerEmail",
+      "fieldValue": "ashoker@chetu.com",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyStreet",
+      "fieldValue": "422 Kingstone Street",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyCity",
+      "fieldValue": "Alaska",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyState",
+      "fieldValue": "AL",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyZip",
+      "fieldValue": "21107",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyCountry",
+      "fieldValue": "US",
+      "borrowerPosition": 0
+    }
+  ],
+  "loanID" : "51cd3aa4-ca9c-49fa-8f01-d05d936050c1",
+  "userName" : "amitk7@chetu.com",
+  "password" : "chetu@123"
+}

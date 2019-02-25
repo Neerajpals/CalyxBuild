@@ -1,0 +1,414 @@
+USE [WebMax_CalyxPoint]
+GO
+/****** Object:  Table [dbo].[Bind_FieldID_Name]    Script Date: 11/9/2018 6:31:45 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Bind_FieldID_Name](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[FieldID] [int] NOT NULL,
+	[FieldName] [varchar](50) NOT NULL,
+	[status] [bit] NOT NULL,
+	[created_by] [int] NOT NULL,
+	[created_on] [datetime] NOT NULL,
+ CONSTRAINT [PK_Bind_FieldID_Name] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Bind_FieldID_Name] ON 
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (1, 100, N'BorrowerFirstName', 1, 0, CAST(N'2018-09-25T23:06:27.220' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (2, 101, N'BorrowerLastName', 1, 0, CAST(N'2018-09-26T15:31:28.003' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (3, 102, N'BorrowerStreet', 1, 0, CAST(N'2018-09-26T15:32:45.107' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (4, 103, N'BorrowerCity', 1, 0, CAST(N'2018-09-26T15:33:08.967' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (5, 104, N'BorrowerState', 1, 0, CAST(N'2018-09-26T15:33:33.857' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (6, 105, N'BorrowerZip', 1, 0, CAST(N'2018-09-26T15:33:47.230' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (7, 112, N'BorrowerEmail', 1, 0, CAST(N'2018-09-26T15:34:35.577' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (8, 31, N'PropertyStreet', 1, 0, CAST(N'2018-09-26T15:35:02.977' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (9, 32, N'PropertyCity', 1, 0, CAST(N'2018-09-26T15:35:21.730' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (11, 33, N'PropertyState', 1, 0, CAST(N'2018-09-26T15:35:57.443' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (12, 34, N'PropertyZip', 1, 0, CAST(N'2018-09-26T15:36:26.947' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (13, 35, N'PropertyCountry', 1, 0, CAST(N'2018-09-26T15:36:50.320' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (14, 106, N'BorrowerHomePhone', 1, 0, CAST(N'2018-09-26T15:38:26.833' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (15, 18, N'LoanProcessor', 1, 0, CAST(N'2018-09-26T22:02:36.810' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (16, 19, N'LoanOfficer', 1, 0, CAST(N'2018-09-26T22:02:49.050' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (17, 107, N'BorrowerFax', 1, 0, CAST(N'2018-09-28T21:41:34.000' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (18, 108, N'BorrowerSSN', 1, 0, CAST(N'2018-09-28T21:41:39.577' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (19, 113, N'IsOwn', 1, 0, CAST(N'2018-09-28T21:42:24.173' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (20, 114, N'IsRent', 1, 0, CAST(N'2018-09-28T21:42:30.443' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (21, 111, N'NoOfYear', 1, 0, CAST(N'2018-09-28T21:43:09.383' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (22, 115, N'BorrowerCountry', 1, 0, CAST(N'2018-09-28T21:44:04.930' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (23, 1190, N'IsPurposeofLoanPurchase', 1, 0, CAST(N'2018-09-28T21:44:45.083' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (24, 26, N'IsConventional', 1, 0, CAST(N'2018-09-28T21:46:37.327' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (25, 921, N'IsPrimaryResidence', 1, 0, CAST(N'2018-09-28T21:47:14.410' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (26, 800, N'SalePrice', 1, 0, CAST(N'2018-09-28T21:47:39.280' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (27, 13, N'Term', 1, 0, CAST(N'2018-09-28T21:48:13.253' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (28, 3190, N'Due', 1, 0, CAST(N'2018-09-28T21:48:18.423' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (29, 524, N'DownPaymentPercentage', 1, 0, CAST(N'2018-09-28T21:49:41.670' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (30, 525, N'DownPayment', 1, 0, CAST(N'2018-09-28T21:50:08.157' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (31, 11, N'LoanAmount', 1, 0, CAST(N'2018-09-28T21:50:30.030' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (32, 12524, N'PropertyType', 1, 0, CAST(N'2018-09-28T22:01:49.880' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (33, 109, N'BorrowerAge', 1, 0, CAST(N'2018-10-01T19:12:24.283' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (34, 110, N'BorrowerYrsSchool', 1, 0, CAST(N'2018-10-01T19:15:11.800' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (35, 117, N'BorroweMiddleName', 1, 0, CAST(N'2018-10-01T19:16:32.150' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (36, 118, N'BorrowerDOB', 1, 0, CAST(N'2018-10-01T19:16:41.387' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (37, 119, N'BorrowerNameSuffix', 1, 0, CAST(N'2018-10-01T19:16:57.490' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (38, 129, N'BorrowerDependentsCount', 1, 0, CAST(N'2018-10-01T19:17:40.400' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (39, 130, N'BorrowerDependentsAge', 1, 0, CAST(N'2018-10-01T19:18:05.740' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (40, 135, N'BorrowerOccupation', 1, 0, CAST(N'2018-10-01T19:18:41.093' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (41, 136, N'BorrowerBusinessPhone', 1, 0, CAST(N'2018-10-01T19:19:07.343' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (42, 138, N'BorrowerYearsInWork', 1, 0, CAST(N'2018-10-01T19:19:32.923' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (43, 139, N'BorrowerAltPhone', 1, 0, CAST(N'2018-10-01T19:20:42.740' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (44, 140, N'BorrowerEmployerCity', 1, 0, CAST(N'2018-10-01T19:21:12.557' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (45, 141, N'BorrowerIsSelfEmployed', 1, 0, CAST(N'2018-10-01T19:21:58.423' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (46, 142, N'BorrowerEmployerState', 1, 0, CAST(N'2018-10-01T19:22:28.947' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (47, 143, N'BorrowerEmployerZip', 1, 0, CAST(N'2018-10-01T19:22:38.077' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (48, 144, N'BorrowerIsMarried', 1, 0, CAST(N'2018-10-01T19:22:59.963' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (49, 145, N'BorrowerIsSeperated', 1, 0, CAST(N'2018-10-01T19:23:10.917' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (50, 146, N'BorrowerIsUnmarried', 1, 0, CAST(N'2018-10-01T19:23:29.413' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (51, 148, N'BorrowerEmployerName', 1, 0, CAST(N'2018-10-01T19:23:54.447' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (52, 149, N'BorrowerEmployerAddress', 1, 0, CAST(N'2018-10-01T19:24:00.750' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (53, 150, N'Co-BorrowerFirstName', 1, 0, CAST(N'2018-10-01T19:24:43.533' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (54, 151, N'Co-BorrowerLastName', 1, 0, CAST(N'2018-10-01T19:24:49.897' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (55, 152, N'Co-BorrowerMailingAddress', 1, 0, CAST(N'2018-10-01T19:25:04.657' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (56, 153, N'Co-BorrowerMailingCity', 1, 0, CAST(N'2018-10-01T19:25:15.803' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (57, 154, N'Co-BorrowerMailingState', 1, 0, CAST(N'2018-10-01T19:25:26.917' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (58, 155, N'Co-BorrowerMailingZip', 1, 0, CAST(N'2018-10-01T19:25:42.567' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (59, 156, N'Co-BorrowerHomePhone', 1, 0, CAST(N'2018-10-01T19:25:51.730' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (60, 157, N'Co-BorrowerFax', 1, 0, CAST(N'2018-10-01T19:26:11.790' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (61, 158, N'Co-BorrowerSSN', 1, 0, CAST(N'2018-10-01T19:26:20.237' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (62, 159, N'Co-BorrowerAge', 1, 0, CAST(N'2018-10-01T19:26:26.873' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (63, 160, N'Co-BorrowerYrsSchool', 1, 0, CAST(N'2018-10-01T19:26:40.643' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (64, 161, N'Co-BorrowerNoOfYears', 1, 0, CAST(N'2018-10-01T19:28:34.563' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (65, 162, N'Co-BorrowerEmail', 1, 0, CAST(N'2018-10-01T19:29:09.327' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (66, 163, N'Co-BorrowerIsResidenceOwn', 1, 0, CAST(N'2018-10-01T19:29:28.030' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (67, 164, N'Co-BorrowerIsResidenceRent', 1, 0, CAST(N'2018-10-01T19:29:48.330' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (68, 165, N'Co-BorrowerPresentCountry', 1, 0, CAST(N'2018-10-01T19:30:22.020' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (69, 167, N'Co-BorrowerMiddleName', 1, 0, CAST(N'2018-10-01T19:30:41.973' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (70, 168, N'Co-BorrowerDOB', 1, 0, CAST(N'2018-10-01T19:30:55.627' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (71, 169, N'Co-BorrowerNameSuffix', 1, 0, CAST(N'2018-10-01T19:31:07.247' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (72, 175, N'NearestRelativePhoneNo', 1, 0, CAST(N'2018-10-01T19:34:19.277' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (73, 176, N'NearestRelativeRelation', 1, 0, CAST(N'2018-10-01T19:34:27.523' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (74, 177, N'NearestRelativeAddress', 1, 0, CAST(N'2018-10-01T19:35:02.960' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (75, 178, N'NearestRelativeName', 1, 0, CAST(N'2018-10-01T19:35:09.543' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (76, 179, N'Co-BorrowerDependentsCount', 1, 0, CAST(N'2018-10-01T19:35:47.800' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (77, 180, N'Co-BorrowerDependentsAge', 1, 0, CAST(N'2018-10-01T19:36:10.970' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (79, 185, N'Co-BorrowerOccupation', 1, 0, CAST(N'2018-10-01T19:37:05.157' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (80, 186, N'Co-BorrowerBusinessPhone', 1, 0, CAST(N'2018-10-01T19:37:15.040' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (81, 188, N'Co-BorrowerYearsInWork', 1, 0, CAST(N'2018-10-01T19:37:35.330' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (82, 189, N'Co-BorrowerAltPhone', 1, 0, CAST(N'2018-10-01T19:37:45.167' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (83, 190, N'Co-BorrowerEmployerCity', 1, 0, CAST(N'2018-10-01T19:37:59.753' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (84, 191, N'Co-BorrowerIsSelfEmployed', 1, 0, CAST(N'2018-10-01T19:38:14.643' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (85, 192, N'Co-BorrowerEmployerState', 1, 0, CAST(N'2018-10-01T19:39:36.047' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (86, 193, N'Co-BorrowerEmployerZip', 1, 0, CAST(N'2018-10-01T19:39:50.003' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (87, 194, N'Co-BorrowerIsMarried', 1, 0, CAST(N'2018-10-01T19:39:59.130' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (88, 195, N'Co-BorrowerIsSeperated', 1, 0, CAST(N'2018-10-01T19:40:09.463' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (89, 196, N'Co-BorrowerIsUnmarried', 1, 0, CAST(N'2018-10-01T19:40:17.177' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (90, 198, N'Co-BorrowerEmployerName', 1, 0, CAST(N'2018-10-01T19:40:43.460' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (91, 199, N'Co-BorrowerEmployerAddress', 1, 0, CAST(N'2018-10-01T19:40:56.167' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (92, 200, N'BorrowerMailingAddress', 1, 0, CAST(N'2018-10-01T19:41:23.880' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (93, 201, N'BorrowerMailingCity', 1, 0, CAST(N'2018-10-01T19:41:58.920' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (94, 202, N'BorrowerMailingState', 1, 0, CAST(N'2018-10-01T19:42:04.030' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (95, 203, N'BorrowerMailingZip', 1, 0, CAST(N'2018-10-01T19:42:13.403' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (96, 204, N'BorrowerIsMailingAddressAsPresentAddress', 1, 0, CAST(N'2018-10-01T19:43:01.783' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (97, 205, N'BorrowerYearsOnJob', 1, 0, CAST(N'2018-10-01T19:44:00.480' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (98, 206, N'BorrowerMonthsOnJob', 1, 0, CAST(N'2018-10-01T19:44:15.053' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (100, 220, N'Co-BorrowerMailingAddress1', 1, 0, CAST(N'2018-10-01T19:45:16.720' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (101, 600, N'BorrowerBaseIncome', 1, 0, CAST(N'2018-10-01T19:48:57.687' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (102, 601, N'BorrowerOverTime', 1, 0, CAST(N'2018-10-01T19:49:04.187' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (103, 602, N'BorrowerBonuses', 1, 0, CAST(N'2018-10-01T19:49:19.167' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (104, 603, N'BorrowerCommissions', 1, 0, CAST(N'2018-10-01T19:49:27.863' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (105, 604, N'BorrowerDividends/Interests', 1, 0, CAST(N'2018-10-01T19:49:53.337' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (106, 605, N'BorrowerNetRentalIncome', 1, 0, CAST(N'2018-10-01T19:50:07.363' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (107, 606, N'BorrowerOther 1', 1, 0, CAST(N'2018-10-01T19:50:19.010' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (108, 607, N'BorrowerOther 2', 1, 0, CAST(N'2018-10-01T19:50:57.877' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (109, 610, N'BorrowerTotalIncome', 1, 0, CAST(N'2018-10-01T19:51:20.370' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (110, 650, N'Co-BorrowerBaseIncome', 1, 0, CAST(N'2018-10-01T19:52:57.967' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (111, 651, N'Co-BorrowerOverTime', 1, 0, CAST(N'2018-10-01T19:53:11.557' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (112, 652, N'Co-BorrowerBonuses', 1, 0, CAST(N'2018-10-01T19:53:45.583' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (113, 653, N'Co-BorrowerCommissions', 1, 0, CAST(N'2018-10-01T19:54:03.053' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (114, 654, N'Co-BorrowerDividends/Interests', 1, 0, CAST(N'2018-10-01T19:54:20.037' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (115, 655, N'Co-BorrowerNetRentalIncome', 1, 0, CAST(N'2018-10-01T19:54:30.340' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (116, 656, N'Co-BorrowerOther 1', 1, 0, CAST(N'2018-10-01T19:55:05.893' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (117, 657, N'Co-BorrowerOther 2', 1, 0, CAST(N'2018-10-01T19:55:15.540' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (118, 660, N'Co-BorrowerTotalIncome', 1, 0, CAST(N'2018-10-01T19:55:36.603' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (119, 700, N'PresentRent', 1, 0, CAST(N'2018-10-01T21:42:56.933' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (120, 701, N'PresentFirstMortgageMonthlyPayment', 1, 0, CAST(N'2018-10-01T21:43:52.530' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (121, 702, N'PresentOtherFinancing', 1, 0, CAST(N'2018-10-01T21:44:17.460' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (122, 703, N'PresentHazardInsurance', 1, 0, CAST(N'2018-10-01T21:44:31.470' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (123, 704, N'PresentRealEstateTaxes', 1, 0, CAST(N'2018-10-01T21:44:48.700' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (124, 705, N'PresentMortgageInsurance', 1, 0, CAST(N'2018-10-01T21:45:00.680' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (125, 706, N'PresentHomeownerAssociationDues', 1, 0, CAST(N'2018-10-01T21:45:26.710' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (126, 707, N'PresentOther', 1, 0, CAST(N'2018-10-01T21:45:34.137' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (127, 710, N'PresentTotalMonthlyHousingExpenses', 1, 0, CAST(N'2018-10-01T21:45:57.270' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (128, 929, N'SubjectPropertyTypeCondo', 1, 0, CAST(N'2018-10-01T21:47:06.897' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (129, 930, N'SubjectPropertyTypePUD', 1, 0, CAST(N'2018-10-01T21:47:15.970' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (130, 931, N'SubjectPropertyTypeCo-Op', 1, 0, CAST(N'2018-10-01T21:47:27.620' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (131, 932, N'SubjectPropertyTypeDetached', 1, 0, CAST(N'2018-10-01T21:47:39.117' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (132, 933, N'SubjectPropertyTypeAttached', 1, 0, CAST(N'2018-10-01T21:47:49.067' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (133, 934, N'SubjectPropertyTypeIsMultiUnit', 1, 0, CAST(N'2018-10-01T21:48:01.690' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (134, 935, N'SubjectPropertyTypeOther''', 1, 0, CAST(N'2018-10-01T21:48:08.537' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (135, 936, N'SubjectPropertyTypeSingleFamilyHome', 1, 0, CAST(N'2018-10-01T21:48:22.733' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (136, 937, N'SubjectPropertyTypeTownHouse', 1, 0, CAST(N'2018-10-01T21:48:31.010' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (137, 938, N'SubjectPropertyTypeMulti-Family', 1, 0, CAST(N'2018-10-01T21:48:46.243' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (138, 939, N'SubjectPropertyTypeHighRiseCondo', 1, 0, CAST(N'2018-10-01T21:49:06.750' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (139, 940, N'SubjectPropertyTypeManufactured', 1, 0, CAST(N'2018-10-01T21:49:23.290' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (143, 1191, N'IsPurposeOfLoanConstruction-Permanent', 1, 0, CAST(N'2018-10-01T21:53:19.530' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (144, 1192, N'IsPurposeOfLoanConstruction', 1, 0, CAST(N'2018-10-01T21:53:32.177' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (145, 1193, N'IsPurposeOfLoanCash-OutRefinance', 1, 0, CAST(N'2018-10-01T21:53:56.753' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (146, 1194, N'IsPurposeOfLoanOther1', 1, 0, CAST(N'2018-10-01T21:54:20.940' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (147, 1195, N'IsPurposeOfLoanOther1Explained', 1, 0, CAST(N'2018-10-01T22:00:13.763' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (148, 1196, N'IsPurposeOfLoanOther2', 1, 0, CAST(N'2018-10-01T22:00:42.293' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (149, 1197, N'IsPurposeOfLoanOther2Explained', 1, 0, CAST(N'2018-10-01T22:00:59.017' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (150, 1198, N'IsPurposeOfLoanNoCash-OutRefinance', 1, 0, CAST(N'2018-10-01T22:01:32.983' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (151, 1212, N'IfRefinanceLoanYearAcquired', 1, 0, CAST(N'2018-10-01T22:02:51.487' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (152, 1213, N'IfRefinanceLoanOrignalCost', 1, 0, CAST(N'2018-10-01T22:03:40.550' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (153, 1214, N'IfRefinanceLoanAmountExistingLiens', 1, 0, CAST(N'2018-10-01T22:04:30.943' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (154, 1215, N'PuposeOfRefinance1', 1, 0, CAST(N'2018-10-01T22:04:58.943' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (155, 1216, N'PuposeOfRefinance2', 1, 0, CAST(N'2018-10-01T22:05:05.690' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (156, 1465, N'Borrower Declarations A on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:06:01.773' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (157, 1466, N'Borrower Declarations B on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:06:18.800' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (158, 1467, N'Borrower Declarations C on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:06:31.807' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (159, 1468, N'Borrower Declarations D on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:06:58.820' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (160, 1469, N'Borrower Declarations E on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:07:37.550' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (162, 1470, N'Borrower Declarations F on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:07:50.900' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (163, 1471, N'Borrower Declarations G on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:07:59.073' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (164, 1472, N'Borrower Declarations H on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:08:04.127' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (165, 1473, N'Borrower Declarations I on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:08:08.823' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (166, 1474, N'Borrower Declarations J on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:08:13.543' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (168, 1475, N'Borrower Declarations K on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:08:29.357' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (169, 1476, N'Borrower Declarations L on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:08:40.700' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (170, 1477, N'Co-Borrower Declarations A on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:10:58.517' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (171, 1478, N'Co-Borrower Declarations B on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:03.173' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (172, 1479, N'Co-Borrower Declarations C on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:07.350' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (173, 1480, N'Co-Borrower Declarations D on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:11.583' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (174, 1481, N'Co-Borrower Declarations E on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:15.817' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (175, 1482, N'Co-Borrower Declarations F on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:19.393' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (176, 1483, N'Co-Borrower Declarations G on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:22.970' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (177, 1484, N'Co-Borrower Declarations H on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:27.220' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (178, 1485, N'Co-Borrower Declarations I on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:33.703' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (179, 1486, N'Co-Borrower Declarations J on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:37.910' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (180, 1487, N'Co-Borrower Declarations K on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:42.270' AS DateTime))
+GO
+INSERT [dbo].[Bind_FieldID_Name] ([ID], [FieldID], [FieldName], [status], [created_by], [created_on]) VALUES (181, 1488, N'Co-Borrower Declarations L on Loan App Page 3
+', 1, 0, CAST(N'2018-10-01T22:11:55.317' AS DateTime))
+GO
+SET IDENTITY_INSERT [dbo].[Bind_FieldID_Name] OFF
+GO
+/****** Object:  Index [IX_Bind_FieldID_Name_FieldID]    Script Date: 11/9/2018 6:31:45 PM ******/
+ALTER TABLE [dbo].[Bind_FieldID_Name] ADD  CONSTRAINT [IX_Bind_FieldID_Name_FieldID] UNIQUE NONCLUSTERED 
+(
+	[FieldID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [IX_Bind_FieldID_Name_FieldName]    Script Date: 11/9/2018 6:31:45 PM ******/
+ALTER TABLE [dbo].[Bind_FieldID_Name] ADD  CONSTRAINT [IX_Bind_FieldID_Name_FieldName] UNIQUE NONCLUSTERED 
+(
+	[FieldName] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Bind_FieldID_Name] ADD  CONSTRAINT [DF_Bind_FieldID_Name_status]  DEFAULT ('True') FOR [status]
+GO
+ALTER TABLE [dbo].[Bind_FieldID_Name] ADD  CONSTRAINT [DF_Bind_FieldID_Name_created_by]  DEFAULT ((0)) FOR [created_by]
+GO
+ALTER TABLE [dbo].[Bind_FieldID_Name] ADD  CONSTRAINT [DF_Bind_FieldID_Name_created_on]  DEFAULT (sysdatetime()) FOR [created_on]
+GO

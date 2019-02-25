@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Release\calyxPointGetLoan.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Release\calyxPointGetLoan.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Release\calyxPointGetLoan.exe
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Release\calyxPointGetLoan.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Release\calyxPointGetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Release\calyxPointGetLoan.application
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Release\calyxPointGetLoan.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Release\calyxPointGetLoan.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Release\calyxPointGetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Release\calyxPointGetLoan.application

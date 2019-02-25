@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\calyxPointGetLoan.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\calyxPointGetLoan.exe
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\calyxPointGetLoan.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\calyxPointGetLoan.exe
+c:\users\administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\calyxPointGetLoan.pdb

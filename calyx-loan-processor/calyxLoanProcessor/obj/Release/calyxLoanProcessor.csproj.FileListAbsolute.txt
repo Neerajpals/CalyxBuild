@@ -1,0 +1,27 @@
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\Newtonsoft.Json.dll
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\Newtonsoft.Json.xml
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe.config
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe.manifest
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.application
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.pdb
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Release\calyxLoanProcessor.csprojResolveAssemblyReference.cache
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.exe.manifest
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.application
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.exe
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.pdb
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe.config
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe.manifest
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.application
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.exe
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\LoanProcessor.pdb
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\Newtonsoft.Json.dll
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\Newtonsoft.Json.pdb
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\bin\Release\Newtonsoft.Json.xml
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\calyxLoanProcessor.csproj.CoreCompileInputs.cache
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.TrustInfo.xml
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.exe.manifest
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.application
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\calyxLoanProcessor.csproj.CopyComplete
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.exe
+C:\Users\amiteshm\Desktop\Old Project\calyx-loan-processor\calyxLoanProcessor\obj\Release\LoanProcessor.pdb

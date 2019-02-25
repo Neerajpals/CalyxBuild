@@ -1,0 +1,13 @@
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.exe.config
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.application
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.application
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.pdb
+D:\Project\WebMax-MGLD\calyx-point-arbiter\calyxPointGetLoan\calyxPointGetLoan\bin\x86\Release\GetLoan.exe.config
+D:\Project\WebMax-MGLD\calyx-point-arbiter\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.exe
+D:\Project\WebMax-MGLD\calyx-point-arbiter\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.pdb
+D:\Project\WebMax-MGLD\calyx-point-arbiter\calyxPointGetLoan\calyxPointGetLoan\obj\x86\Release\GetLoan.csprojResolveAssemblyReference.cache

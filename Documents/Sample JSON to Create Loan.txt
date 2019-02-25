@@ -1,0 +1,162 @@
+{
+  "loanFields": [
+    {
+      "fieldName": "BorrowerFirstName",
+      "fieldValue": "Athul",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerLastName",
+      "fieldValue": "Mohan",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerStreet",
+      "fieldValue": "422 Kingstone Street",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerCity",
+      "fieldValue": "Alaska",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerState",
+      "fieldValue": "AL",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerCountry",
+      "fieldValue": "United States",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerZip",
+      "fieldValue": "21107",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerHomePhone",
+      "fieldValue": "9570428885",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerSSN",
+      "fieldValue": "666-00-1234",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerEmail",
+      "fieldValue": "ashoker@chetu.com",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "BorrowerFax",
+      "fieldValue": "011 44 (161) 999 8888",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyStreet",
+      "fieldValue": "422 Kingstone Street",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyCity",
+      "fieldValue": "Alaska",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyState",
+      "fieldValue": "AL",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyZip",
+      "fieldValue": "21107",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyCountry",
+      "fieldValue": "US",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "PropertyType",
+      "fieldValue": "Detached",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "LoanOfficer",
+      "fieldValue": "TestLoanOfficer",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "LoanProcessor",
+      "fieldValue": "TestLoanProcessor",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "LoanAmount",
+      "fieldValue": "480800.00",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "Term",
+      "fieldValue": "360",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "Due",
+      "fieldValue": "360",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "LoanOfficer",
+      "fieldValue": "TestLoanOfficer",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "IsOwn",
+      "fieldValue": "X",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "NoOfYear",
+      "fieldValue": "8",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "IsPurposeofLoanPurchase",
+      "fieldValue": "X",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "IsConventional",
+      "fieldValue": "X",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "IsPrimaryResidence",
+      "fieldValue": "X",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "SalePrice",
+      "fieldValue": "506000",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "DownPaymentPercentage",
+      "fieldValue": "20",
+      "borrowerPosition": 0
+    },
+     {
+      "fieldName": "DownPayment",
+      "fieldValue": "10500",
+      "borrowerPosition": 0
+    }
+  ],
+  "folderName":"DATAFOLDER",
+  "userName": "amitk7@chetu.com",
+  "password": "chetu@123"
+}

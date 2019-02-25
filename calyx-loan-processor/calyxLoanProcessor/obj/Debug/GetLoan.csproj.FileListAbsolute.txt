@@ -1,0 +1,12 @@
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\GetLoan.exe.config
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\GetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\GetLoan.application
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\GetLoan.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\bin\Debug\GetLoan.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\GetLoan.exe.manifest
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\GetLoan.application
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\GetLoan.exe
+C:\Users\Administrator\documents\visual studio 2015\Projects\calyxPointGetLoan\calyxPointGetLoan\obj\Debug\GetLoan.pdb
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\bin\Debug\GetLoan.exe.config
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Debug\GetLoan.exe
+D:\Project\WebMax-MGLD\calyx-loan-processor\calyxLoanProcessor\obj\Debug\GetLoan.pdb
